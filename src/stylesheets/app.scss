@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bg-image {
+  background-image: url("./../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.shadow-background {
+  background-color: rgba(255, 255, 255, 0.25);
+  width: 100%;
+  height: 300px;
+  padding: 1rem;
+}
+.countdown-header {
+  color: greenyellow;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+.countdown-container {
+  margin: 2rem auto 0 auto;
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  color: greenyellow;
+
+  span {
+    font-size: 3rem;
+    text-transform: capitalize;
+    flex-direction: column;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .shadow-background {
+    height: auto;
+    .countdown-container {
+      flex-direction: column;
+    }
+  }
+}
