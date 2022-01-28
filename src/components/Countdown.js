@@ -58,7 +58,7 @@ const Countdown = () => {
             timerComponents.length ? (
               timerComponents
             ) : (
-              <span>It's today!</span>
+              <span>It&#39;s today!</span>
             )
           ) : (
             ""
