@@ -1,24 +1,33 @@
 # Countdown Timer
 
-Countdown timer which calculates the time to the choosen date.
+Countdown timer which calculates the time to the chosen date.
 
 ## Technology stack
     - JavaScript
     - React
     - HTML
     - SASS
+    - ESLint
 
 ## Live view
 
 You can check the application in this [link]( https://pawel-galkowski.github.io/Countdown-Timer/)
- https://pawel-galkowski.github.io/Countdown-Timer/
 
-## Available Scripts
+## Installation
+To install application you need to have a NPM(Node Package Manager). You can read about it on main NPM website.
 
-In the project directory, you can run:
+After all you need to type in manager
 
-### `yarn start or npm start`
+```GIT
+npm install
+```
 
-### `yarn build or npm run build`
+## Usage
+To use application you need to type
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```GIT
+npm start
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
